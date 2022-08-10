@@ -41,3 +41,7 @@ import { expectType } from 'tsd';
 expectType<string>("linbudu"); // √
 expectType<string>(599); // ×
 ```
+## 执行子命令
+```bash
+pnpm -r --filter=@study/function-and-class run dev
+```
