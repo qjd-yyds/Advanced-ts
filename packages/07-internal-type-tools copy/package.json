@@ -1,0 +1,11 @@
+{
+  "name": "@study/internalTypeTools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx ts-node-dev --respawn --transpile-only ./src/index.ts"
+  },
+  "author": "",
+  "license": "MIT"
+}
