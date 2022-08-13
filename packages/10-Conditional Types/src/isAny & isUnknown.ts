@@ -6,3 +6,6 @@ type IsUnknown<T> = unknown extends T
     ? false
     : true
   : false;
+export {
+    IsUnknown
+}
