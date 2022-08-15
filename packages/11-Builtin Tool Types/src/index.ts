@@ -54,3 +54,8 @@ type MyOmit<T,U extends keyof T> = Pick<T, Exclude<keyof T, U >>
 const obj6:MyOmit<Pick1, "name" | "isMarry"> = {
     age: 123
 }
+
+type MyPick1<T,U extends keyof T> = {
+    [K in U] : T[K]
+}
+type MyOmit1<T,U extends  keyof  T> = Pick<T, Exclude<keyof T, U>>
