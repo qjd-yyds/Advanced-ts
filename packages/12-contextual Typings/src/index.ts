@@ -26,7 +26,6 @@ list.forEach(item => arr.push(item))
 function handler(arg: string) {
     console.log(arg);
 }
-
 function useHandler(callback: (arg1: string, arg2: number) => void) {
     callback('linbudu', 599);
 }
